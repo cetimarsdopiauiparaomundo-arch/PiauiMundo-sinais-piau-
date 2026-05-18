@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://bcqk3rmrv2vhn"]
+
+[ext_resource type="Script" uid="uid://ff0gd5onrlio" path="res://scripts/controllers/home.gd" id="1_jfreh"]
+[ext_resource type="Texture2D" uid="uid://c42vfw3rltcmm" path="res://image/fundo_tema/telainicial.jpg" id="2_0c2ro"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="3_0c2ro"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
+script = ExtResource("1_jfreh")
+
+[node name="Control" type="Control" parent="." unique_id=216256120]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TemaHome" type="Sprite2D" parent="Control" unique_id=1186036168]
+position = Vector2(362.5, 637.5)
+scale = Vector2(0.6712963, 0.6692708)
+texture = ExtResource("2_0c2ro")
+
+[node name="ButtonAprender" type="Button" parent="Control" unique_id=585376701]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 687.0
+offset_right = 647.0
+offset_bottom = 823.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_font_sizes/font_size = 60
+text = "MODO APRENDER"
+
+[node name="ButtonDesafio" type="Button" parent="Control" unique_id=341394932]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 863.0
+offset_right = 649.0
+offset_bottom = 999.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.21960784, 1)
+theme_override_font_sizes/font_size = 60
+text = "MODO DESAFIO"
+
+[node name="AudioButton" type="AudioStreamPlayer" parent="Control" unique_id=260847086]
+stream = ExtResource("3_0c2ro")
+
+[node name="ButtonQuit" type="Button" parent="Control" unique_id=1256022736]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 1136.0
+offset_right = 463.0
+offset_bottom = 1217.0
+theme_override_colors/font_color = Color(0.78178775, 0.012797461, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "SAIR"
+
+[connection signal="pressed" from="Control/ButtonAprender" to="." method="_on_button_aprender_pressed"]
+[connection signal="pressed" from="Control/ButtonDesafio" to="." method="_on_button_desafio_pressed"]
+[connection signal="pressed" from="Control/ButtonQuit" to="." method="_on_button_quit_pressed"]

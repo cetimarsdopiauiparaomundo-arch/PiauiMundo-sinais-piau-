@@ -1,0 +1,127 @@
+[gd_scene format=3 uid="uid://xag8ol7wewh0"]
+
+[ext_resource type="Script" uid="uid://3v1yn5x8rfni" path="res://scripts/controllers/controllers_tela_aprender.gd" id="1_slffl"]
+[ext_resource type="Texture2D" uid="uid://c6avau6ndbn00" path="res://image/fundo_tema/modoapreder.jpg" id="1_xbmrn"]
+[ext_resource type="Resource" uid="uid://ts4oce0mvopv" path="res://resources/varied/theme/theme_varied_aprender.tres" id="2_ek0j4"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="4_6nego"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
+script = ExtResource("1_slffl")
+quiz = ExtResource("2_ek0j4")
+
+[node name="Control" type="Control" parent="." unique_id=594092009]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TemaTelaAprender" type="Sprite2D" parent="Control" unique_id=1186036168]
+position = Vector2(363, 644)
+scale = Vector2(0.6712963, 0.6692708)
+texture = ExtResource("1_xbmrn")
+
+[node name="QuestionText" type="Label" parent="Control" unique_id=1666741447]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -124.5
+offset_top = -214.5
+offset_right = 124.5
+offset_bottom = -131.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "Exemplo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ImageHolder" type="Panel" parent="Control" unique_id=828233718]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 509.0
+offset_right = 699.0
+offset_bottom = 1047.0
+
+[node name="QuestionImage" type="TextureRect" parent="Control/ImageHolder" unique_id=126733452]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="QuestionVideo" type="VideoStreamPlayer" parent="Control/ImageHolder" unique_id=1896347511]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonNext" type="Button" parent="Control" unique_id=261780115]
+layout_mode = 0
+offset_left = 442.0
+offset_top = 1177.0
+offset_right = 689.0
+offset_bottom = 1240.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13725491, 1)
+theme_override_font_sizes/font_size = 40
+text = "PRÓXIMA"
+
+[node name="ButtonPrevious" type="Button" parent="Control" unique_id=227929078]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 1178.0
+offset_right = 289.0
+offset_bottom = 1241.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13725491, 1)
+theme_override_font_sizes/font_size = 40
+text = "ANTERIOR"
+
+[node name="ButtonPlayAudio" type="Button" parent="Control" unique_id=60342226]
+layout_mode = 0
+offset_left = 193.0
+offset_top = 1059.0
+offset_right = 538.0
+offset_bottom = 1129.0
+theme_override_font_sizes/font_size = 40
+text = "OUVIR ÁUDIO"
+
+[node name="ButtonStopAudio" type="Button" parent="Control" unique_id=1962263183]
+visible = false
+layout_mode = 0
+offset_left = 193.0
+offset_top = 1054.0
+offset_right = 538.0
+offset_bottom = 1124.0
+theme_override_font_sizes/font_size = 40
+text = "PARAR ÁUDIO"
+
+[node name="ButtonHome" type="Button" parent="Control" unique_id=100517226]
+layout_mode = 0
+offset_left = 570.0
+offset_top = 15.0
+offset_right = 714.0
+offset_bottom = 89.0
+theme_override_font_sizes/font_size = 30
+text = "HOME"
+
+[node name="QuestionAudio" type="AudioStreamPlayer" parent="Control" unique_id=1004942740]
+
+[node name="AudioButtonPress" type="AudioStreamPlayer" parent="Control" unique_id=894915744]
+stream = ExtResource("4_6nego")
+
+[connection signal="pressed" from="Control/ButtonNext" to="." method="_on_button_next_pressed"]
+[connection signal="pressed" from="Control/ButtonPrevious" to="." method="_on_button_previous_pressed"]
+[connection signal="pressed" from="Control/ButtonPlayAudio" to="." method="_on_button_play_audio_pressed"]
+[connection signal="pressed" from="Control/ButtonStopAudio" to="." method="_on_button_stop_audio_pressed"]
+[connection signal="pressed" from="Control/ButtonHome" to="." method="_on_button_home_pressed"]

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QuizTheme" format=3 uid="uid://8nsdnn2h0fq5"]
+
+[ext_resource type="Script" uid="uid://ksbkk86apgwo" path="res://scripts/resources/theme.gd" id="1_5gg2b"]
+[ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_1ffxt"]
+[ext_resource type="Resource" uid="uid://dqqiwlxbcesse" path="res://resources/varied/question_desafio/carnaúba.tres" id="3_m4bsv"]
+[ext_resource type="Resource" uid="uid://bjdn17kggx16k" path="res://resources/varied/question_desafio/desafio_caju.tres" id="4_ntfxe"]
+[ext_resource type="Resource" uid="uid://dx468gv5viiv3" path="res://resources/varied/question_desafio/opala.tres" id="5_8b42g"]
+
+[resource]
+script = ExtResource("1_5gg2b")
+theme = Array[ExtResource("2_1ffxt")]([ExtResource("3_m4bsv"), ExtResource("4_ntfxe"), ExtResource("5_8b42g"), ExtResource("5_8b42g")])
+metadata/_custom_type_script = "uid://ksbkk86apgwo"
