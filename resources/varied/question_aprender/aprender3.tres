@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="QuizQuestion" format=3 uid="uid://bts3nto8mbcsr"]
 
-[ext_resource type="Texture2D" uid="uid://beqb2kxvqt51l" path="res://image/opala.jpg" id="1_ol48t"]
+[ext_resource type="Texture2D" uid="uid://beqb2kxvqt51l" path="res://midia/opala.jpg" id="1_ol48t"]
 [ext_resource type="Script" uid="uid://dsacn43yg1b3x" path="res://scripts/resources/question.gd" id="2_ypt0e"]
 
 [resource]

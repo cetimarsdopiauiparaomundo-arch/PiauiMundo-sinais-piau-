@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e6aihxts5hsa"
-path="res://.godot/imported/tema_curiosidade.png-965b183655db721ce61f8bd607e2eedd.ctex"
+uid="uid://c42vfw3rltcmm"
+path="res://.godot/imported/telainicial.jpg-ed7a2995c209fbc35df6d74d981236b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/tema_curiosidade.png"
-dest_files=["res://.godot/imported/tema_curiosidade.png-965b183655db721ce61f8bd607e2eedd.ctex"]
+source_file="res://midia/fundo_tema/telainicial.jpg"
+dest_files=["res://.godot/imported/telainicial.jpg-ed7a2995c209fbc35df6d74d981236b4.ctex"]
 
 [params]
 

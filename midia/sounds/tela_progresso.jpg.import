@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brq52fycwlpwk"
-path="res://.godot/imported/trilhadoestudante.png-fd8979289760058237a59df9510b41d9.ctex"
+uid="uid://64thpfnciwgm"
+path="res://.godot/imported/tela_progresso.jpg-50a2490f13a524e4e92cde02d11fdc63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/trilhadoestudante.png"
-dest_files=["res://.godot/imported/trilhadoestudante.png-fd8979289760058237a59df9510b41d9.ctex"]
+source_file="res://midia/sounds/tela_progresso.jpg"
+dest_files=["res://.godot/imported/tela_progresso.jpg-50a2490f13a524e4e92cde02d11fdc63.ctex"]
 
 [params]
 

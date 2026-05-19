@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b068plew1cfw6"
-path="res://.godot/imported/caju.jpg-b716cdf517f04fb44753282303187ade.ctex"
+uid="uid://e6aihxts5hsa"
+path="res://.godot/imported/tema_curiosidade.png-396121831dc0ee395d55755831faf52d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/caju.jpg"
-dest_files=["res://.godot/imported/caju.jpg-b716cdf517f04fb44753282303187ade.ctex"]
+source_file="res://midia/fundo_tema/tema_curiosidade.png"
+dest_files=["res://.godot/imported/tema_curiosidade.png-396121831dc0ee395d55755831faf52d.ctex"]
 
 [params]
 

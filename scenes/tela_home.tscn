@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bcqk3rmrv2vhn"]
 
 [ext_resource type="Script" uid="uid://ff0gd5onrlio" path="res://scripts/controllers/home.gd" id="1_jfreh"]
-[ext_resource type="Texture2D" uid="uid://c42vfw3rltcmm" path="res://image/fundo_tema/telainicial.jpg" id="2_0c2ro"]
-[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="3_0c2ro"]
+[ext_resource type="Texture2D" uid="uid://c42vfw3rltcmm" path="res://midia/fundo_tema/telainicial.jpg" id="2_0c2ro"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://midia/sounds/som_proxima.mp3" id="3_0c2ro"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
 script = ExtResource("1_jfreh")
@@ -49,7 +49,7 @@ offset_left = 264.0
 offset_top = 1136.0
 offset_right = 463.0
 offset_bottom = 1217.0
-theme_override_colors/font_color = Color(0.78178775, 0.012797461, 0, 1)
+theme_override_colors/font_color = Color(0.78039217, 0.9411765, 0, 1)
 theme_override_font_sizes/font_size = 50
 text = "SAIR"
 

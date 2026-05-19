@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlv64w83tnb35"
-path="res://.godot/imported/carnauba.jpg-e5422da1b93e429ed085e30efc5a9eef.ctex"
+uid="uid://diaivulop3lx5"
+path="res://.godot/imported/temabotao.jpg-8ca271d37e832f8e0aa35ee9e40765c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/carnauba.jpg"
-dest_files=["res://.godot/imported/carnauba.jpg-e5422da1b93e429ed085e30efc5a9eef.ctex"]
+source_file="res://midia/fundo_tema/temabotao.jpg"
+dest_files=["res://.godot/imported/temabotao.jpg-8ca271d37e832f8e0aa35ee9e40765c7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6avau6ndbn00"
-path="res://.godot/imported/modoapreder.jpg-f4dbd007f90d8c100d15bc802308d7b2.ctex"
+uid="uid://b068plew1cfw6"
+path="res://.godot/imported/caju.jpg-c29f7410d3386c23483620188eae0d0a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/modoapreder.jpg"
-dest_files=["res://.godot/imported/modoapreder.jpg-f4dbd007f90d8c100d15bc802308d7b2.ctex"]
+source_file="res://midia/caju.jpg"
+dest_files=["res://.godot/imported/caju.jpg-c29f7410d3386c23483620188eae0d0a.ctex"]
 
 [params]
 

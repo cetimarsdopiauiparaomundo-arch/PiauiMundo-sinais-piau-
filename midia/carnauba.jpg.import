@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://64thpfnciwgm"
-path="res://.godot/imported/tela_progresso.jpg-a83554f0705fa3d55fa3864a8e533657.ctex"
+uid="uid://dlv64w83tnb35"
+path="res://.godot/imported/carnauba.jpg-6f20fcdf0879cceaa9b122b2697926fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/sounds/tela_progresso.jpg"
-dest_files=["res://.godot/imported/tela_progresso.jpg-a83554f0705fa3d55fa3864a8e533657.ctex"]
+source_file="res://midia/carnauba.jpg"
+dest_files=["res://.godot/imported/carnauba.jpg-6f20fcdf0879cceaa9b122b2697926fa.ctex"]
 
 [params]
 

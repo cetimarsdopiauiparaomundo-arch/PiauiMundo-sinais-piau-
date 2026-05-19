@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dn37dixggxru6"]
 
 [ext_resource type="Script" uid="uid://csfpqmdeixb1i" path="res://scripts/controllers/game_controllers.gd" id="1_2805t"]
-[ext_resource type="Texture2D" uid="uid://b5gfythgijxkp" path="res://image/fundo_tema/tema_desafio.jpg" id="1_i0tg1"]
+[ext_resource type="Texture2D" uid="uid://b5gfythgijxkp" path="res://midia/fundo_tema/tema_desafio.jpg" id="1_i0tg1"]
 [ext_resource type="Resource" uid="uid://8nsdnn2h0fq5" path="res://resources/varied/theme/theme_varied.tres" id="2_sx55a"]
-[ext_resource type="AudioStream" uid="uid://djehjx2seoujt" path="res://image/sounds/SomCorreta.ogg" id="4_ske3u"]
-[ext_resource type="Texture2D" uid="uid://64thpfnciwgm" path="res://image/sounds/tela_progresso.jpg" id="5_843m0"]
-[ext_resource type="AudioStream" uid="uid://cna63wcce4wo" path="res://image/sounds/SomErro.ogg" id="5_c1o6v"]
-[ext_resource type="Texture2D" uid="uid://e6aihxts5hsa" path="res://image/fundo_tema/tema_curiosidade.png" id="6_c1o6v"]
-[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="7_c6wtj"]
+[ext_resource type="AudioStream" uid="uid://djehjx2seoujt" path="res://midia/sounds/SomCorreta.ogg" id="4_ske3u"]
+[ext_resource type="Texture2D" uid="uid://64thpfnciwgm" path="res://midia/sounds/tela_progresso.jpg" id="5_843m0"]
+[ext_resource type="AudioStream" uid="uid://cna63wcce4wo" path="res://midia/sounds/SomErro.ogg" id="5_c1o6v"]
+[ext_resource type="Texture2D" uid="uid://e6aihxts5hsa" path="res://midia/fundo_tema/tema_curiosidade.png" id="6_c1o6v"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://midia/sounds/som_proxima.mp3" id="7_c6wtj"]
 
 [node name="Main_Desafio" type="CanvasLayer" unique_id=358581762]
 script = ExtResource("1_2805t")

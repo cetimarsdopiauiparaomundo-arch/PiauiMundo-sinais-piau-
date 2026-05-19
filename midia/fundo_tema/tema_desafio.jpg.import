@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c42vfw3rltcmm"
-path="res://.godot/imported/telainicial.jpg-b33f8e5945da700a1d3b4b30e921e6a1.ctex"
+uid="uid://b5gfythgijxkp"
+path="res://.godot/imported/tema_desafio.jpg-1d73b46a0d30e01b768408307bb6c214.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/telainicial.jpg"
-dest_files=["res://.godot/imported/telainicial.jpg-b33f8e5945da700a1d3b4b30e921e6a1.ctex"]
+source_file="res://midia/fundo_tema/tema_desafio.jpg"
+dest_files=["res://.godot/imported/tema_desafio.jpg-1d73b46a0d30e01b768408307bb6c214.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5gfythgijxkp"
-path="res://.godot/imported/tema_desafio.jpg-2d49d4ae0ee617bd68a9e4ce4281c7b0.ctex"
+uid="uid://c6avau6ndbn00"
+path="res://.godot/imported/modoapreder.jpg-349e1ccdae7b09992ccbb636d3eede5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/tema_desafio.jpg"
-dest_files=["res://.godot/imported/tema_desafio.jpg-2d49d4ae0ee617bd68a9e4ce4281c7b0.ctex"]
+source_file="res://midia/fundo_tema/modoapreder.jpg"
+dest_files=["res://.godot/imported/modoapreder.jpg-349e1ccdae7b09992ccbb636d3eede5f.ctex"]
 
 [params]
 

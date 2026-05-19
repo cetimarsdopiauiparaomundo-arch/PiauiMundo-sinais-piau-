@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://diaivulop3lx5"
-path="res://.godot/imported/temabotao.jpg-247673b48c9a4e1388885b44958ffcf3.ctex"
+uid="uid://beqb2kxvqt51l"
+path="res://.godot/imported/opala.jpg-423f78346d982fb92c812174ba17fb39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/fundo_tema/temabotao.jpg"
-dest_files=["res://.godot/imported/temabotao.jpg-247673b48c9a4e1388885b44958ffcf3.ctex"]
+source_file="res://midia/opala.jpg"
+dest_files=["res://.godot/imported/opala.jpg-423f78346d982fb92c812174ba17fb39.ctex"]
 
 [params]
 

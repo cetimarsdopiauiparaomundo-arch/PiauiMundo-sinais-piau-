@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://xag8ol7wewh0"]
 
 [ext_resource type="Script" uid="uid://3v1yn5x8rfni" path="res://scripts/controllers/controllers_tela_aprender.gd" id="1_slffl"]
-[ext_resource type="Texture2D" uid="uid://c6avau6ndbn00" path="res://image/fundo_tema/modoapreder.jpg" id="1_xbmrn"]
+[ext_resource type="Texture2D" uid="uid://c6avau6ndbn00" path="res://midia/fundo_tema/modoapreder.jpg" id="1_xbmrn"]
 [ext_resource type="Resource" uid="uid://ts4oce0mvopv" path="res://resources/varied/theme/theme_varied_aprender.tres" id="2_ek0j4"]
-[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://image/sounds/som_proxima.mp3" id="4_6nego"]
+[ext_resource type="AudioStream" uid="uid://vdw6rue1urud" path="res://midia/sounds/som_proxima.mp3" id="4_6nego"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=358581762]
 script = ExtResource("1_slffl")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beqb2kxvqt51l"
-path="res://.godot/imported/opala.jpg-d63ed0a6a302fb4d6bb5f739acb920a2.ctex"
+uid="uid://brq52fycwlpwk"
+path="res://.godot/imported/trilhadoestudante.png-e47231de90a104cbff4cbe995bd7c0de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/opala.jpg"
-dest_files=["res://.godot/imported/opala.jpg-d63ed0a6a302fb4d6bb5f739acb920a2.ctex"]
+source_file="res://midia/fundo_tema/trilhadoestudante.png"
+dest_files=["res://.godot/imported/trilhadoestudante.png-e47231de90a104cbff4cbe995bd7c0de.ctex"]
 
 [params]
 
