@@ -16,4 +16,4 @@ func _on_button_desafio_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/tela_desafio.tscn")
 
 func _on_button_quit_pressed() -> void:
-	get_tree().quit()
+	get_tree().quit
